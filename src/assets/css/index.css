@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+
+.card {
+  @apply rounded-md bg-white;
+}
+
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgb(253 186 116); */
+  background-image: linear-gradient(90deg, #76D7C4, #5499C7, #2E86C1, #21618C);
+  /* background-image: linear-gradient(140deg, #900C3F, #C70039, #FF5733, #FFC300, #DAF7A6); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
